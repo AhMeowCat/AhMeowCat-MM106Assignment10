@@ -77,8 +77,8 @@ a.nav-link {
   margin: 0 auto;
 }
 
-.active {
-  color: #753557;
+.nav-link.active {
+  color: #753557 !important; 
   text-shadow: 2px 2px rgb(187, 176, 176);
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -96,6 +96,21 @@ footer a:hover {
   color: white;
 }
 
+#search {
+  background-color: white;
+}
+
+.background1 {
+  background: rgba(107, 152, 185, 0.5) url("../images/drawings/river-screened.png") no-repeat center center;
+  background-size: cover;
+}
+
+.myhero {
+  background: url("../images/photos/canyon-screened.jpg") no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
 .btn {
   font-family: var(--font-family-title);
   background-color: var(--bg-color-footer);
@@ -107,25 +122,6 @@ footer a:hover {
 .btn a, footer a {
   color: white;
   text-decoration: none;
-}
-
-#search {
-  background-color: white;
-}
-
-.background1 {
-  background: url("../images/drawings/river-screened.png") no-repeat center center;
-  background-size: cover;
-}
-
-.background2 {
-  background-color: rgba(107, 152, 185, 0.5);
-}
-
-.myhero {
-  background: url("../images/photos/canyon-screened.jpg") no-repeat center center;
-  background-size: cover;
-  margin: 0 auto;
 }
 
 .col-lg-6 {
@@ -145,6 +141,15 @@ footer a:hover {
   font-family: var(--font-family-title);
   color: var(--bg-color-blue);
   font-weight: 800;
+}
+
+form h5 {
+  font-size: 1.2em;
+  padding-top: 20px;
+}
+
+form a {
+  text-decoration: none;
 }
 
 footer {
