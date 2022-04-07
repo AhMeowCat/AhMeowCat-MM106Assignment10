@@ -88,7 +88,7 @@ a:hover {
   transform: scale(1.2);
 }
 
-.active:hover {
+.active:hover, #topheading1:hover {
   transform: none;
 }
 
@@ -100,7 +100,7 @@ footer a:hover {
   background-color: white;
 }
 
-.background1 {
+.background {
   background: rgba(107, 152, 185, 0.5) url("../images/drawings/river-screened.png") no-repeat center center;
   background-size: cover;
 }
