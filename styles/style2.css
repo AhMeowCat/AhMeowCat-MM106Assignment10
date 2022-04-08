@@ -258,11 +258,11 @@ footer ul li a {
   #boat2 {
     width: 4em;
     height: 4em;
-    left: 50px;
+    left: 20px;
   }
 
   @keyframes sailing {
     0% {transform: translate(0px, 0px);}
-    100% {transform: translate(400px, 0px);}
+    100% {transform: translate(350px, 0px);}
   }
 }
